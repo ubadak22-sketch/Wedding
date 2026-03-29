@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Legend of HUDA 👑</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lato:wght@300;400;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ENTRY SCREEN -->
+  <section id="entry-screen">
+    <div class="entry-content">
+      <div class="entry-stars">✦ ✦ ✦</div>
+      <p class="entry-pre">You are about to witness...</p>
+      <h1 class="entry-title">Greatness.</h1>
+      <p class="entry-sub">Brace yourself. This is not a drill.</p>
+      <button id="enter-btn" onclick="enterSite()">Enter ✨</button>
+    </div>
+    <div class="entry-bg-glow"></div>
+  </section>
+
+  <!-- MAIN SITE -->
+  <main id="main-site" class="hidden">
+
+    <!-- SECTION 1: INTRO -->
+    <section class="section intro-section" id="intro">
+      <div class="container">
+        <p class="intro-line scroll-fade">Some people are humble...</p>
+        <p class="intro-line scroll-fade delay-1">Some are modest...</p>
+        <p class="intro-line scroll-fade delay-2">Some even say "I'm not that great."</p>
+        <div class="intro-divider scroll-fade delay-3">— — —</div>
+        <h2 class="intro-huda scroll-fade delay-4">And then there's <span class="gold-text">HUDA.</span></h2>
+      </div>
+    </section>
+
+    <!-- SECTION 2: THE CLAIMS -->
+    <section class="section claims-section" id="claims">
+      <div class="container">
+        <p class="section-eyebrow scroll-fade">Her words. Verbatim. Unedited.</p>
+        <h2 class="section-title scroll-fade">The Official Statement</h2>
+
+        <div class="quote-block scroll-fade delay-1">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">Most wonderful person who ever existed</p>
+          <div class="quote-attribution">— HUDA, probably while sipping tea</div>
+        </div>
+
+        <div class="quote-block scroll-fade delay-2">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">Most perfect and best of all</p>
+          <div class="quote-attribution">— HUDA, confidently, no hesitation</div>
+        </div>
+
+        <div class="badges-row scroll-fade delay-3">
+          <span class="badge">Self-Certified Perfection ✅</span>
+          <span class="badge">Confidence Level: 1000%</span>
+          <span class="badge">No Competition Detected 🚫</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: MEMES -->
+    <section class="section memes-section" id="memes">
+      <div class="container">
+        <p class="section-eyebrow scroll-fade">Exhibit A through... all of them</p>
+        <h2 class="section-title scroll-fade">The Evidence</h2>
+        <p class="section-sub scroll-fade delay-1">A curated gallery of pure, unfiltered energy 👇</p>
+        <div class="meme-grid scroll-fade delay-2">
+          <div class="meme-card">
+            <div class="meme-placeholder">
+              <span class="meme-emoji">👑</span>
+              <p>When someone says they're better than you</p>
+            </div>
+          </div>
+          <div class="meme-card">
+            <div class="meme-placeholder">
+              <span class="meme-emoji">💅</span>
+              <p>Me: "I'm not bragging, it's just facts"</p>
+            </div>
+          </div>
+          <div class="meme-card">
+            <div class="meme-placeholder">
+              <span class="meme-emoji">🏆</span>
+              <p>First place. Every category. Always.</p>
+            </div>
+          </div>
+          <div class="meme-card">
+            <div class="meme-placeholder">
+              <span class="meme-emoji">😌</span>
+              <p>Being this perfect is basically a full-time job</p>
+            </div>
+          </div>
+          <div class="meme-card">
+            <div class="meme-placeholder">
+              <span class="meme-emoji">✨</span>
+              <p>Competition? Didn't catch that, say it louder</p>
+            </div>
+          </div>
+          <div class="meme-card">
+            <div class="meme-placeholder">
+              <span class="meme-emoji">🌟</span>
+              <p>Humble? Never heard of her.</p>
+            </div>
+          </div>
+        </div>
+        <p class="meme-note scroll-fade delay-3">
+          💡 <em>Drop your meme images into the <code>memes/</code> folder and swap the placeholders in the HTML!</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 4: LEVEL SYSTEM -->
+    <section class="section levels-section" id="levels">
+      <div class="container">
+        <p class="section-eyebrow scroll-fade">The Official Classification</p>
+        <h2 class="section-title scroll-fade">The Scale of Human Excellence</h2>
+        <p class="section-sub scroll-fade delay-1">Scientists have studied this. The results were expected.</p>
+
+        <div class="levels-list">
+          <div class="level-card scroll-fade delay-1">
+            <div class="level-badge">Lv. 1</div>
+            <div class="level-info">
+              <h3>Normal Human</h3>
+              <p>Does the bare minimum. Wakes up. Exists. Goes to bed.</p>
+            </div>
+            <div class="level-bar"><div class="level-fill" style="width:5%"></div></div>
+          </div>
+
+          <div class="level-card scroll-fade delay-2">
+            <div class="level-badge">Lv. 10</div>
+            <div class="level-info">
+              <h3>Confident</h3>
+              <p>Has an opinion. Shares it. Doesn't apologize.</p>
+            </div>
+            <div class="level-bar"><div class="level-fill" style="width:20%"></div></div>
+          </div>
+
+          <div class="level-card scroll-fade delay-3">
+            <div class="level-badge">Lv. 50</div>
+            <div class="level-info">
+              <h3>Self-Certified Legend</h3>
+              <p>Believes in themselves so hard, reality starts to agree.</p>
+            </div>
+            <div class="level-bar"><div class="level-fill" style="width:60%"></div></div>
+          </div>
+
+          <div class="level-card huda-level scroll-fade delay-4">
+            <div class="level-badge gold">Lv. 100</div>
+            <div class="level-info">
+              <h3>HUDA 👑</h3>
+              <p>"Most wonderful. Most perfect. Most best of all." — Her words. We believe her.</p>
+            </div>
+            <div class="level-bar"><div class="level-fill gold-fill" style="width:100%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: FINAL BOSS -->
+    <section class="section final-boss-section" id="finalboss">
+      <div class="container">
+        <p class="boss-label scroll-fade">⚠️ WARNING: MAXIMUM POWER DETECTED ⚠️</p>
+        <h2 class="boss-title scroll-fade delay-1">FINAL FORM</h2>
+        <div class="boss-name scroll-fade delay-2">HUDA 👑</div>
+        <p class="boss-sub scroll-fade delay-3">She has achieved everything. There are no more levels. The game is over.</p>
+        <div class="boss-stats scroll-fade delay-4">
+          <div class="stat"><span class="stat-val">∞</span><span class="stat-label">Perfection</span></div>
+          <div class="stat"><span class="stat-val">100%</span><span class="stat-label">Confidence</span></div>
+          <div class="stat"><span class="stat-val">0</span><span class="stat-label">Doubts</span></div>
+        </div>
+      </div>
+      <div class="boss-glow"></div>
+    </section>
+
+    <!-- SECTION 6: PLOT TWIST -->
+    <section class="section twist-section" id="twist">
+      <div class="container">
+        <p class="twist-line scroll-fade">But even perfection...</p>
+        <div class="twist-pause scroll-fade delay-2">
+          <span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>
+        </div>
+        <p class="twist-line-2 scroll-fade delay-3">...has a plot twist.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 7: THE REVEAL -->
+    <section class="section reveal-section" id="reveal">
+      <div class="container">
+        <div class="ring-emoji scroll-fade">💍</div>
+        <h2 class="reveal-title scroll-fade delay-1">HUDA is getting married.</h2>
+        <p class="reveal-sub scroll-fade delay-2">The most wonderful person who ever existed has chosen someone.<br>Let that sink in.</p>
+        <div class="confetti-row scroll-fade delay-3">🌸 🌼 💐 🌸 🌼 💐 🌸</div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: ENDING -->
+    <section class="section ending-section" id="ending">
+      <div class="container">
+        <p class="ending-line scroll-fade">She walked through life owning every room.</p>
+        <p class="ending-line scroll-fade delay-1">She laughed the loudest and loved the deepest.</p>
+        <p class="ending-line scroll-fade delay-2">She never needed anyone to tell her she was great —</p>
+        <p class="ending-line scroll-fade delay-3">She already knew.</p>
+
+        <div class="ending-divider scroll-fade delay-4">✦</div>
+
+        <p class="ending-final scroll-fade delay-5">
+          "Maybe she really is perfect after all."
+        </p>
+
+        <p class="ending-blessing scroll-fade delay-6">
+          Wishing you a lifetime of joy, love, and absolutely zero humility. 💛
+        </p>
+
+        <div class="ending-flowers scroll-fade delay-7">🌸 🌹 💛 🌹 🌸</div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>Made with 💛 in honor of <strong>HUDA</strong> — who already knew she deserved this page.</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
